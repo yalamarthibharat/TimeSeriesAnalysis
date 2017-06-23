@@ -10,3 +10,6 @@ the output average is calculated for the 3 day interval and that interval is mov
  * Auto Regressive - Moving Average model - It is the combination of autoregressive and moving average models. It is represented as ARMA(p,q) which consists of p AR terms and q MA terms. This model expresses the estimated value at time t as the sum of q terms that represent the average variation of random variation over q previous periods, plus the sum of p AR terms that compute the current value of x as the weighted sum of the p most recent values.
  
  All the above models assume that the time series is stationary. But that won't be the case all the time, most of the time the data contains trends and seasonality. So we have to make the series stationary by removing trends and seasonality to apply the above models. 
+
+This project implements all the above time series models mentioned with various parameters. It includes deals with the data that has trends and seasonality. The code removes the trends and seasonality to make the time series stationary in order to fit with one of the above models. Time series data from various domains are taken and implemented in this project such as:
+
