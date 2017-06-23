@@ -13,3 +13,8 @@ the output average is calculated for the 3 day interval and that interval is mov
 
 This project implements all the above time series models mentioned with various parameters. It includes deals with the data that has trends and seasonality. The code removes the trends and seasonality to make the time series stationary in order to fit with one of the above models. Time series data from various domains are taken and implemented in this project such as:
 
+ * CO2 mesurement model
+ * Electricity production model
+ * Milk production model
+ * Wisconsin Employment model
+ * Oklahoma weather model
