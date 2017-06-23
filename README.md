@@ -16,5 +16,5 @@ This project implements all the above time series models mentioned with various 
  * CO2 measurement model
  * Electricity production model
  * Milk production model
- * Wisconsin Employment model
+ * Wisconsin employment model
  * Oklahoma weather model
