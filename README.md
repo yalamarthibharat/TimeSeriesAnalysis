@@ -11,9 +11,9 @@ the output average is calculated for the 3 day interval and that interval is mov
  
  All the above models assume that the time series is stationary. But that won't be the case all the time, most of the time the data contains trends and seasonality. So we have to make the series stationary by removing trends and seasonality to apply the above models. 
 
-This project implements all the above time series models mentioned with various parameters. It includes deals with the data that has trends and seasonality. The code removes the trends and seasonality to make the time series stationary in order to fit with one of the above models. Time series data from various domains are taken and implemented in this project such as:
+This project implements all the above time series models mentioned with various parameters. It includes dealing with the data that has trends and seasonality. The code removes the trends and seasonality to make the time series stationary in order to fit with one of the above models. Time series data from various domains are taken and implemented in this project such as:
 
- * CO2 mesurement model
+ * CO2 measurement model
  * Electricity production model
  * Milk production model
  * Wisconsin Employment model
